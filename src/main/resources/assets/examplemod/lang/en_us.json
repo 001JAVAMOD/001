@@ -1,0 +1,6 @@
+{
+    "item.examplemod.example_item": "example_item",
+    "item.examplemod.example_sword_item": "example_sword_item",
+
+    "itemGroup.example_tab": "examplemod"
+}
