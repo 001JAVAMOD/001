@@ -18,8 +18,8 @@ public class Sword {
     public static final DeferredRegister<Item> SWORD =
             DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
 
-    public static final RegistryObject<Item> EXAMPLE_SWORD_ITEM = 
-        SWORD.register("example_sword_item", () -> new SwordItem(
+    public static final RegistryObject<Item> EXAMPLE_DIVINE_SWORD = 
+        SWORD.register("example_divine_sword", () -> new SwordItem(
             Tiers.DIAMOND, // 材质等级
             96,          // 攻击伤害
             -2.4F,      // 攻击速度

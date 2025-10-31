@@ -1,6 +1,8 @@
 {
-    "item.examplemod.example_item": "测试物品",
-    "item.examplemod.example_sword_item": "测试剑",
+    "item.examplemod.example_whiteboard": "白板",
+    "item.examplemod.example_divine_sword": "神剑",
+    "item.examplemod.example_ruby": "红宝石",
+    "item.examplemod.example_sapphire":"蓝宝石",
 
     "itemGroup.example_tab": "测试模组"
 }

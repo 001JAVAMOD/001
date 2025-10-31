@@ -1,6 +1,8 @@
 {
-    "item.examplemod.example_item": "example_item",
-    "item.examplemod.example_sword_item": "example_sword_item",
+    "item.examplemod.example_whiteboard": "whiteboard",
+    "item.examplemod.example_divine_sword": "Divine Sword",
+    "item.examplemod.example_ruby": "ruby",
+    "item.examplemod.example_sapphire":"sapphire",
 
-    "itemGroup.example_tab": "examplemod"
+    "whiteboardGroup.example_tab": "examplemod"
 }

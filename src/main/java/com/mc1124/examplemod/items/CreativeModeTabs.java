@@ -15,11 +15,13 @@ public class CreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = 
             CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(Items.EXAMPLE_ITEM.get()))
+                    .icon(() -> new ItemStack(Items.EXAMPLE_WHITEBORD.get()))
                     .title(Component.translatable("itemGroup.example_tab"))
                     .displayItems((pOarameters, Poutput) -> {
-                        Poutput.accept(Items.EXAMPLE_ITEM.get());
-                        Poutput.accept(Sword.EXAMPLE_SWORD_ITEM.get());
+                        Poutput.accept(Items.EXAMPLE_WHITEBORD.get());
+                        Poutput.accept(Items.EXAMPLE_RUBY.get());
+                        Poutput.accept(Items.EXAMPLE_SAPPHIRE.get());
+                        Poutput.accept(Sword.EXAMPLE_DIVINE_SWORD.get());
                     })
                     .build()
     );

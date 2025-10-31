@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "examplemod:item/example_sword_item",
-		"particle": "examplemod:item/example_sword_item"
+		"0": "examplemod:item/example_divine_sword",
+		"particle": "examplemod:item/example_divine_sword"
 	},
 	"elements": [
 		{

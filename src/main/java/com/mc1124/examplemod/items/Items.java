@@ -11,9 +11,15 @@ public class Items {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
 
-    public static final RegistryObject<Item> EXAMPLE_ITEM = 
-            ITEMS.register("example_item", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> EXAMPLE_WHITEBORD = 
+            ITEMS.register("example_whiteboard", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> EXAMPLE_RUBY = 
+            ITEMS.register("example_ruby", () -> new Item(new Item.Properties()));
+    
+    public static final RegistryObject<Item> EXAMPLE_SAPPHIRE = 
+            ITEMS.register("example_sapphire", () -> new Item(new Item.Properties()));
+    
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
