@@ -9,5 +9,5 @@
     "block.examplemod.example_ruby_ore": "Ruby Ore",
     "block.examplemod.example_sapphire_ore": "Sapphire Ore",
 
-    "whiteboardGroup.example_tab": "Examplemod"
+    "itemGroup.example_tab": "Examplemod"
 }
