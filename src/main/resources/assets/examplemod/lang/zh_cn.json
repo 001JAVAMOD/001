@@ -1,8 +1,10 @@
 {
     "item.examplemod.example_whiteboard": "白板",
-    "item.examplemod.example_divine_sword": "神剑",
     "item.examplemod.example_ruby": "红宝石",
     "item.examplemod.example_sapphire":"蓝宝石",
+
+    "item.examplemod.example_divine_sword": "神剑",
+    "item.examplemod.example_white_spear": "白枪",
 
     "block.examplemod.example_ruby_ore": "红宝石矿",
     "block.examplemod.example_sapphire_ore": "蓝宝石矿",

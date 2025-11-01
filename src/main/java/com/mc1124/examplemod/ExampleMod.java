@@ -9,9 +9,11 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Tiers;
+import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -32,7 +34,8 @@ import org.slf4j.Logger;
 
 import com.mc1124.examplemod.items.CreativeModeTabs;
 import com.mc1124.examplemod.items.Items;
-import com.mc1124.examplemod.items.Sword;
+import com.mc1124.examplemod.sword.Divine_Sword;
+import com.mc1124.examplemod.sword.White_Spear;
 import com.mc1124.examplemod.block.Ruby_Ore;
 import com.mc1124.examplemod.block.Sapphire_Ore;
 
@@ -51,7 +54,8 @@ public class ExampleMod
         IEventBus modEventBus = context.getModEventBus();
 
         Items.register(modEventBus);
-        Sword.register(modEventBus);
+        Divine_Sword.register(modEventBus);
+        White_Spear.register(modEventBus);
         Ruby_Ore.register(modEventBus);
         Sapphire_Ore.register(modEventBus);
         CreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);

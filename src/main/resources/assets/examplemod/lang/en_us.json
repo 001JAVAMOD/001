@@ -1,11 +1,13 @@
 {
-    "item.examplemod.example_whiteboard": "whiteboard",
+    "item.examplemod.example_whiteboard": "Whiteboard",
+    "item.examplemod.example_ruby": "Ruby",
+    "item.examplemod.example_sapphire":"Sapphire",
+
     "item.examplemod.example_divine_sword": "Divine Sword",
-    "item.examplemod.example_ruby": "ruby",
-    "item.examplemod.example_sapphire":"sapphire",
+    "item.examplemod.example_white_spear": "White Spear",
 
     "block.examplemod.example_ruby_ore": "Ruby Ore",
     "block.examplemod.example_sapphire_ore": "Sapphire Ore",
 
-    "whiteboardGroup.example_tab": "examplemod"
+    "whiteboardGroup.example_tab": "Examplemod"
 }
