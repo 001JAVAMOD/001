@@ -17,7 +17,7 @@ public class White_Spear {
     public static final RegistryObject<Item> EXAMPLE_WHITE_SPEA = 
         WHITE_SPEAR.register("example_white_spear", () -> new SwordItem(
             Tiers.DIAMOND, // 材质等级
-            10,          // 攻击伤害
+            12,          // 攻击伤害
             -3.0F,      // 攻击速度
             new Item.Properties()
         ));
