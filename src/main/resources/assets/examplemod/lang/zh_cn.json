@@ -5,6 +5,7 @@
     "item.examplemod.example_sapphire":"蓝宝石",
 
     "block.examplemod.example_ruby_ore": "红宝石矿",
+    "block.examplemod.example_sapphire_ore": "蓝宝石矿",
 
     "itemGroup.example_tab": "测试模组"
 }

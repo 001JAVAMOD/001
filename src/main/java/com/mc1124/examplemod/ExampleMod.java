@@ -34,6 +34,7 @@ import com.mc1124.examplemod.items.CreativeModeTabs;
 import com.mc1124.examplemod.items.Items;
 import com.mc1124.examplemod.items.Sword;
 import com.mc1124.examplemod.block.Ruby_Ore;
+import com.mc1124.examplemod.block.Sapphire_Ore;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ExampleMod.MOD_ID)
@@ -52,6 +53,7 @@ public class ExampleMod
         Items.register(modEventBus);
         Sword.register(modEventBus);
         Ruby_Ore.register(modEventBus);
+        Sapphire_Ore.register(modEventBus);
         CreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

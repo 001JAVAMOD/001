@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "examplemod:example_ruby_ore"
+        "examplemod:example_ruby_ore",
+        "examplemod:example_sapphire_ore"
     ]
 }
