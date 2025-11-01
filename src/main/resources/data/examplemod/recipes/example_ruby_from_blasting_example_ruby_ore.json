@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "exmaplemod:example_ruby_ore"
+  },
+  "result": "exmaplemod:example_ruby"
+}

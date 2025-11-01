@@ -4,5 +4,7 @@
     "item.examplemod.example_ruby": "ruby",
     "item.examplemod.example_sapphire":"sapphire",
 
+    "block.examplemod.example_ruby_ore": "Ruby   Ore",
+
     "whiteboardGroup.example_tab": "examplemod"
 }

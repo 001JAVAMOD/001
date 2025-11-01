@@ -1,6 +1,7 @@
 package com.mc1124.examplemod.items;
 
 import com.mc1124.examplemod.ExampleMod;
+import com.mc1124.examplemod.block.Ruby_Ore;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -22,6 +23,7 @@ public class CreativeModeTabs {
                         Poutput.accept(Items.EXAMPLE_RUBY.get());
                         Poutput.accept(Items.EXAMPLE_SAPPHIRE.get());
                         Poutput.accept(Sword.EXAMPLE_DIVINE_SWORD.get());
+                        Poutput.accept(Ruby_Ore.EXAMPLE_RUBY_ORE.get());
                     })
                     .build()
     );
