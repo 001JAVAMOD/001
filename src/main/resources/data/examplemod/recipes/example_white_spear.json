@@ -7,7 +7,7 @@
     "item": "minecraft:iron_sword"
   },
   "result": {
-    "item": "examplemod:example_white_sword"
+    "item": "examplemod:example_white_spear"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"
