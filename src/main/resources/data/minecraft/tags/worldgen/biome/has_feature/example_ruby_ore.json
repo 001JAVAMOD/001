@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:desert",
+    "minecraft:mountains",
+    "minecraft:taiga",
+    "minecraft:jungle",
+    "minecraft:badlands"
+  ]
+}
