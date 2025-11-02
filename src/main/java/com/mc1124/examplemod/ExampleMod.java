@@ -61,6 +61,7 @@ public class ExampleMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
+        OreGeneration.registerOres();
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
 
