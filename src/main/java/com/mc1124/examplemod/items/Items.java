@@ -1,6 +1,7 @@
 package com.mc1124.examplemod.items;
 
 import com.mc1124.examplemod.ExampleMod;
+
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

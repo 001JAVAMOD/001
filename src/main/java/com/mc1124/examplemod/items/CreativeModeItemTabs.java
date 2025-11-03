@@ -1,10 +1,6 @@
 package com.mc1124.examplemod.items;
 
 import com.mc1124.examplemod.ExampleMod;
-import com.mc1124.examplemod.block.Ruby_Ore;
-import com.mc1124.examplemod.block.Sapphire_Ore;
-import com.mc1124.examplemod.sword.Divine_Sword;
-import com.mc1124.examplemod.sword.White_Spear;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
