@@ -50,6 +50,7 @@ public class ExampleMod
         CreativeModeItemTabs.CREATIVE_MODE_TABS.register(modEventBus);
         CreativeModeSwordTabs.CREATIVE_MODE_TABS.register(modEventBus);
         CreativeModeBlockTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
