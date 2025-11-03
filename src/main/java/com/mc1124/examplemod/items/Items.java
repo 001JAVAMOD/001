@@ -19,6 +19,8 @@ public class Items {
     
     public static final RegistryObject<Item> EXAMPLE_SAPPHIRE = 
             ITEMS.register("example_sapphire", () -> new Item(new Item.Properties()));
+
+    public static final String EXAMPLE_DIVINE_SWORD = null;
     
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -9,5 +9,7 @@
     "block.examplemod.example_ruby_ore": "红宝石矿",
     "block.examplemod.example_sapphire_ore": "蓝宝石矿",
 
-    "itemGroup.example_tab": "测试模组"
+    "itemGroup.example_item_tab": "测试模组(物品)",
+    "itemGroup.example_sword_tab": "测试模组(武器)",
+    "itemGroup.example_block_tab": "测试模组(方块)"
 }

@@ -20,7 +20,7 @@ public class Ruby_Ore {
         DeferredRegister.create(ForgeRegistries.BLOCKS, ExampleMod.MOD_ID);
 
     public static final RegistryObject<Block> EXAMPLE_RUBY_ORE = 
-        registerBlock("example_ruby_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE)
+        registerBlock("example_ruby_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
             .requiresCorrectToolForDrops()));
     
     private static <T extends Block> void registerBlockItems(String name, RegistryObject<T> block) {

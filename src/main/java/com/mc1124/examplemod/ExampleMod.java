@@ -19,7 +19,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import org.slf4j.Logger;
 
-import com.mc1124.examplemod.items.CreativeModeTabs;
+import com.mc1124.examplemod.items.CreativeModeItemTabs;
+import com.mc1124.examplemod.sword.CreativeModeSwordTabs;
+import com.mc1124.examplemod.block.CreativeModeBlockTabs;
 import com.mc1124.examplemod.items.Items;
 import com.mc1124.examplemod.sword.Divine_Sword;
 import com.mc1124.examplemod.sword.White_Spear;
@@ -45,7 +47,9 @@ public class ExampleMod
         White_Spear.register(modEventBus);
         Ruby_Ore.register(modEventBus);
         Sapphire_Ore.register(modEventBus);
-        CreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        CreativeModeItemTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        CreativeModeSwordTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        CreativeModeBlockTabs.CREATIVE_MODE_TABS.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

@@ -8,11 +8,11 @@
           "tag": "minecraft:stone_ore_replaceables"
         },
         "state": {
-          "Name": "examplemod:example_ruby_ore"
+          "Name": "examplemod:example_sapphire_ore"
         }
       }
     ],
     "size": 9,
-    "discard_chance_on_air_exposure": 1.0
+    "discard_chance_on_air_exposure": 0.0
   }
 }
