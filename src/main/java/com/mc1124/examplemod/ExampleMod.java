@@ -24,9 +24,12 @@ import com.mc1124.examplemod.sword.CreativeModeSwordTabs;
 import com.mc1124.examplemod.block.CreativeModeBlockTabs;
 import com.mc1124.examplemod.items.Items;
 import com.mc1124.examplemod.sword.Divine_Sword;
+import com.mc1124.examplemod.sword.Ruby_Sword;
+import com.mc1124.examplemod.sword.Sapphire_Sword;
 import com.mc1124.examplemod.sword.White_Spear;
 import com.mc1124.examplemod.block.Ruby_Ore;
 import com.mc1124.examplemod.block.Sapphire_Ore;
+import com.mc1124.examplemod.block.Whiteboard_Ore;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(ExampleMod.MOD_ID)
@@ -44,9 +47,12 @@ public class ExampleMod
 
         Items.register(modEventBus);
         Divine_Sword.register(modEventBus);
+        Ruby_Sword.register(modEventBus);
+        Sapphire_Sword.register(modEventBus);
         White_Spear.register(modEventBus);
         Ruby_Ore.register(modEventBus);
         Sapphire_Ore.register(modEventBus);
+        Whiteboard_Ore.register(modEventBus);
         CreativeModeItemTabs.CREATIVE_MODE_TABS.register(modEventBus);
         CreativeModeSwordTabs.CREATIVE_MODE_TABS.register(modEventBus);
         CreativeModeBlockTabs.CREATIVE_MODE_TABS.register(modEventBus);

@@ -1,15 +1,15 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "examplemod:example_whiteboard_ingot"
+    "item": "examplemod:example_ruby"
   },
   "base": {
     "item": "minecraft:iron_sword"
   },
   "result": {
-    "item": "examplemod:example_white_spear"
+    "item": "examplemod:example_ruby_sword"
   },
   "template": {
-    "item": "examplemod:example_whiteboard"
+    "item": "examplemod:example_ruby"
   }
 }

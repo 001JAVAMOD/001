@@ -19,6 +19,8 @@ public class CreativeModeSwordTabs {
                     .title(Component.translatable("itemGroup.example_sword_tab"))
                     .displayItems((pOarameters, Poutput) -> {
                         Poutput.accept(Divine_Sword.EXAMPLE_DIVINE_SWORD.get());
+                        Poutput.accept(Ruby_Sword.EXAMPLE_RUBY_SWORD.get());
+                        Poutput.accept(Sapphire_Sword.EXAMPLE_SAPPHIRE_SWORD.get());
                         Poutput.accept(White_Spear.EXAMPLE_WHITE_SPEA.get());
                     })
                     .build()

@@ -2,10 +2,18 @@
     "item.examplemod.example_whiteboard": "Whiteboard",
     "item.examplemod.example_ruby": "Ruby",
     "item.examplemod.example_sapphire":"Sapphire",
+    "item.examplemod.example_whiteboard_ingot": "Whiteboard Ingot",
 
     "item.examplemod.example_divine_sword": "Divine Sword",
+    "item.examplemod.example_ruby_sword": "Ruby Sword",
+    "item.examplemod.example_sapphire_sword": "Sapphire Sword",
     "item.examplemod.example_white_spear": "White Spear",
 
+    "tooltip.example_divine_sword.ability": "§aRight Click to use: Gain Effects",
+    "tooltip.example_divine_sword.ability1": "§aCooldown: 20 seconds",
+
+    "block.examplemod.example_whiteboard_ore": "Whiteboard Ore",
+    "block.examplemod.example_deepslate_whiteboard_ore": "Deepslate Whiteboard Ore",
     "block.examplemod.example_ruby_ore": "Ruby Ore",
     "block.examplemod.example_deepslate_ruby_ore": "Deepslate Ruby Ore",
     "block.examplemod.example_sapphire_ore": "Sapphire Ore",

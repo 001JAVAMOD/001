@@ -15,17 +15,17 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-public class Sapphire_Ore {
+public class Whiteboard_Ore {
     public static final DeferredRegister<Block> BLOCKS = 
         DeferredRegister.create(ForgeRegistries.BLOCKS, ExampleMod.MOD_ID);
 
-    public static final RegistryObject<Block> EXAMPLE_SAPPHIRE_ORE = 
-        registerBlock("example_sapphire_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+    public static final RegistryObject<Block> EXAMPLE_WHITEBOARD_ORE = 
+        registerBlock("example_whiteboard_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
             .requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> EXAMPLE_DEEPSLATE_SAPPHIRE_ORE = 
-        registerBlock("example_deepslate_sapphire_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
+    public static final RegistryObject<Block> EXAMPLE_DEEPSLATE_WHITEBOARD_ORE = 
+        registerBlock("example_deepslate_whiteboard_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
             .requiresCorrectToolForDrops()));
-    
+
     private static <T extends Block> void registerBlockItems(String name, RegistryObject<T> block) {
         Items.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }

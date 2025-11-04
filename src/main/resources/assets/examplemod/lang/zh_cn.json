@@ -2,13 +2,18 @@
     "item.examplemod.example_whiteboard": "白板",
     "item.examplemod.example_ruby": "红宝石",
     "item.examplemod.example_sapphire":"蓝宝石",
+    "item.examplemod.example_whiteboard_ingot": "白锭",
 
     "item.examplemod.example_divine_sword": "神剑",
+    "item.examplemod.example_ruby_sword": "红宝石剑",
+    "item.examplemod.example_sapphire_sword": "蓝宝石剑",
     "item.examplemod.example_white_spear": "白枪",
 
     "tooltip.example_divine_sword.ability": "§a右键使用：获得效果",
     "tooltip.example_divine_sword.ability1": "§a冷却时间：20秒",
 
+    "block.examplemod.example_whiteboard_ore": "白矿",
+    "block.examplemod.example_deepslate_whiteboard_ore": "深板岩白矿",
     "block.examplemod.example_ruby_ore": "红宝石矿",
         "block.examplemod.example_deepslate_ruby_ore": "深板岩红宝石矿",
     "block.examplemod.example_sapphire_ore": "蓝宝石矿",

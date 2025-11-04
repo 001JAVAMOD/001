@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "1",
+  "ingredient": {
+    "item": "examplemod:example_deepslate_whiteboard_ore"
+  },
+  "result": "examplemod:example_whiteboard_ingot"
+}

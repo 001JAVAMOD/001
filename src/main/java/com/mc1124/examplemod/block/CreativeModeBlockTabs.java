@@ -22,6 +22,8 @@ public class CreativeModeBlockTabs {
                         Poutput.accept(Sapphire_Ore.EXAMPLE_SAPPHIRE_ORE.get());
                         Poutput.accept(Ruby_Ore.EXAMPLE_DEEPSLATE_RUBY_ORE.get());
                         Poutput.accept(Sapphire_Ore.EXAMPLE_DEEPSLATE_SAPPHIRE_ORE.get());
+                        Poutput.accept(Whiteboard_Ore.EXAMPLE_WHITEBOARD_ORE.get());
+                        Poutput.accept(Whiteboard_Ore.EXAMPLE_DEEPSLATE_WHITEBOARD_ORE.get());
                     })
                     .build()
     );

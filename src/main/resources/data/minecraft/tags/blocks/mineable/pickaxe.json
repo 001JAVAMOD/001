@@ -4,6 +4,8 @@
         "examplemod:example_ruby_ore",
         "examplemod:example_deepslate_ruby_ore",
         "examplemod:example_sapphire_ore",
-        "examplemod:example_deepslate_sapphire_ore"
+        "examplemod:example_deepslate_sapphire_ore",
+        "examplemod:example_whiteboard_ore",
+        "examplemod:example_deepslate_whiteboard_ore"
     ]
 }

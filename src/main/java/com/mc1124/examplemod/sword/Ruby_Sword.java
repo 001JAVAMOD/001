@@ -10,18 +10,18 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class White_Spear {
-    public static final DeferredRegister<Item> WHITE_SPEAR =
+public class Ruby_Sword {
+    public static final DeferredRegister<Item> RUBY_SWORD =
             DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MOD_ID);
 
-    public static final RegistryObject<Item> EXAMPLE_WHITE_SPEA = 
-        WHITE_SPEAR.register("example_white_spear", () -> new SwordItem(
+    public static final RegistryObject<Item> EXAMPLE_RUBY_SWORD = 
+        RUBY_SWORD.register("example_ruby_sword", () -> new SwordItem(
             Tiers.DIAMOND, // 材质等级
-            20,          // 攻击伤害
-            -3.0F,      // 攻击速度
+            16,          // 攻击伤害
+            -2.4F,      // 攻击速度
             new Item.Properties()
         ));
         public static void register(IEventBus eventBus) {
-        WHITE_SPEAR.register(eventBus);
+        RUBY_SWORD.register(eventBus);
     }
 }

@@ -21,6 +21,7 @@ public class CreativeModeItemTabs {
                         Poutput.accept(Items.EXAMPLE_WHITEBORD.get());
                         Poutput.accept(Items.EXAMPLE_RUBY.get());
                         Poutput.accept(Items.EXAMPLE_SAPPHIRE.get());
+                        Poutput.accept(Items.EXAMPLE_WHITEBOARD_INGOT.get());
                     })
                     .build()
     );

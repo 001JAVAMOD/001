@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "examplemod:example_whiteboard"
+    "item": "examplemod:example_whiteboard_ingot"
   },
   "base": {
     "item": "minecraft:netherite_sword"
@@ -10,6 +10,6 @@
     "item": "examplemod:example_divine_sword"
   },
   "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
+    "item": "examplemod:example_whiteboard"
   }
 }

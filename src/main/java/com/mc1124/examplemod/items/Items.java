@@ -21,6 +21,9 @@ public class Items {
     public static final RegistryObject<Item> EXAMPLE_SAPPHIRE = 
             ITEMS.register("example_sapphire", () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> EXAMPLE_WHITEBOARD_INGOT = 
+            ITEMS.register("example_whiteboard_ingot", () -> new Item(new Item.Properties()));
+
     public static final String EXAMPLE_DIVINE_SWORD = null;
     
     public static void register(IEventBus eventBus) {
