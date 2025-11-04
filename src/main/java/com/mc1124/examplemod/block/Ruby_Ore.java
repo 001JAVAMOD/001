@@ -22,6 +22,9 @@ public class Ruby_Ore {
     public static final RegistryObject<Block> EXAMPLE_RUBY_ORE = 
         registerBlock("example_ruby_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
             .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> EXAMPLE_DEEPSLATE_RUBY_ORE = 
+        registerBlock("example_deepslate_ruby_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+            .requiresCorrectToolForDrops()));
 
     private static <T extends Block> void registerBlockItems(String name, RegistryObject<T> block) {
         Items.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));

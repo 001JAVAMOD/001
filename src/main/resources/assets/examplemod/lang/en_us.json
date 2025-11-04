@@ -7,7 +7,9 @@
     "item.examplemod.example_white_spear": "White Spear",
 
     "block.examplemod.example_ruby_ore": "Ruby Ore",
+    "block.examplemod.example_deepslate_ruby_ore": "Deepslate Ruby Ore",
     "block.examplemod.example_sapphire_ore": "Sapphire Ore",
+    "block.examplemod.example_deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
     "itemGroup.example_tab": "Examplemod"
 }

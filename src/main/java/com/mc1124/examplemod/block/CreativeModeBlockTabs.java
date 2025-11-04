@@ -19,8 +19,8 @@ public class CreativeModeBlockTabs {
                     .title(Component.translatable("itemGroup.example_block_tab"))
                     .displayItems((pOarameters, Poutput) -> {
                         Poutput.accept(Ruby_Ore.EXAMPLE_RUBY_ORE.get());
-                        Poutput.accept(Ruby_Ore.EXAMPLE_DEEPSLATE_RUBY_ORE.get());
                         Poutput.accept(Sapphire_Ore.EXAMPLE_SAPPHIRE_ORE.get());
+                        Poutput.accept(Ruby_Ore.EXAMPLE_DEEPSLATE_RUBY_ORE.get());
                         Poutput.accept(Sapphire_Ore.EXAMPLE_DEEPSLATE_SAPPHIRE_ORE.get());
                     })
                     .build()
