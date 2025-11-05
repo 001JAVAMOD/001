@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "examplemod:example_ruby"
+  },
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "result": {
+    "item": "examplemod:ruby_leggings"
+  },
+  "template": {
+    "item": "examplemod:example_ruby"
+  }
+}

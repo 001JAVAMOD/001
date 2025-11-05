@@ -9,6 +9,15 @@
     "item.examplemod.example_sapphire_sword": "Sapphire Sword",
     "item.examplemod.example_white_spear": "White Spear",
 
+    "item.examplemod.ruby_helmet": "Ruby Helmet",
+    "item.examplemod.ruby_chestplate": "Ruby Chestplate",
+    "item.examplemod.ruby_leggings": "Ruby Leggings",
+    "item.examplemod.ruby_boots": "Ruby Boots",
+    "item.examplemod.sapphire_helmet": "Sapphire Helmet",
+    "item.examplemod.sapphire_chestplate": "Sapphire Chestplate",
+    "item.examplemod.sapphire_leggings": "Sapphire Leggings",
+    "item.examplemod.sapphire_boots": "Sapphire Boots",
+
     "tooltip.example_divine_sword.ability": "§aRight Click to use: Gain Effects",
     "tooltip.example_divine_sword.ability1": "§aCooldown: 20 seconds",
 
@@ -19,5 +28,8 @@
     "block.examplemod.example_sapphire_ore": "Sapphire Ore",
     "block.examplemod.example_deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
-    "itemGroup.example_tab": "Examplemod"
+    "itemGroup.example_item_tab": "Examplemod",
+    "itemGroup.example_armor_tab": "Examplemod (Armor)",
+    "itemGroup.example_sword_tab": "Examplemod (Weapons)",
+    "itemGroup.example_block_tab": "Examplemod (Blocks)"
 }

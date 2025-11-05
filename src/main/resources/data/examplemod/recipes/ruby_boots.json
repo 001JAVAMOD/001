@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "examplemod:example_ruby"
+  },
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "result": {
+    "item": "examplemod:ruby_boots"
+  },
+  "template": {
+    "item": "examplemod:example_ruby"
+  }
+}
