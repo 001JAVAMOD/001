@@ -8,6 +8,7 @@ displayName="${mod_name}"
 authors="${mod_authors}"
 
 description='''${mod_description}'''
+logoFile="assets/lightanddarkmod/textures/icon.png" 
 [[dependencies.${mod_id}]]
     modId="forge"
     mandatory=true
