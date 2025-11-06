@@ -23,11 +23,10 @@ public class RubyArmorEffectHandler {
                 // 添加效果 - 这里以力量、生命恢复为例
                 player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 2, false, false));
                 player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 5, false, false));
-                player.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 100, 5, false, false));
                 player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 100, 5, false, false));
             }
             
-            // 检查是否穿戴部分红宝石盔甲（至少2件）
+            // 检查是否穿戴部分红宝石盔甲（至少4件）
             if (getRubyArmorCount(player) >= 4) {
                 player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 0, false, false));
             }
