@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lightanddarkmod:item/lightanddark_whiteboard_ingot"
+  }
+}

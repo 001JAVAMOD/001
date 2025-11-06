@@ -1,11 +1,11 @@
 {
     "replace": false,
     "values": [
-        "examplemod:example_ruby_ore",
-        "examplemod:example_deepslate_ruby_ore",
-        "examplemod:example_sapphire_ore",
-        "examplemod:example_deepslate_sapphire_ore",
-        "examplemod:example_whiteboard_ore",
-        "examplemod:example_deepslate_whiteboard_ore"
+        "lightanddarkmod:lightanddark_ruby_ore",
+        "lightanddarkmod:lightanddark_deepslate_ruby_ore",
+        "lightanddarkmod:lightanddark_sapphire_ore",
+        "lightanddarkmod:lightanddark_deepslate_sapphire_ore",
+        "lightanddarkmod:lightanddark_whiteboard_ore",
+        "lightanddarkmod:lightanddark_deepslate_whiteboard_ore"
     ]
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lightanddarkmod:block/lightanddark_ruby_ore"
+  }
+}

@@ -100,7 +100,7 @@ minecraft {
         }
 
         data {
-            // example of overriding the workingDirectory set in configureEach above
+            // lightanddark of overriding the workingDirectory set in configureEach above
             workingDirectory project.file('run-data')
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
@@ -162,6 +162,10 @@ repositories {
                 includeGroupByRegex("software\\.bernie.*")
                 includeGroup("com.eliotlash.mclib")
         }
+    }
+    maven {
+        name "KosmX's maven"
+        url 'https://maven.kosmx.dev/'
     }
     exclusiveContent {
         forRepository {

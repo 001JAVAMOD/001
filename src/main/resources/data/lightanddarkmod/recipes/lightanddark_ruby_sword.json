@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "lightanddarkmod:lightanddark_ruby"
+  },
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "result": {
+    "item": "lightanddarkmod:lightanddark_ruby_sword"
+  },
+  "template": {
+    "item": "lightanddarkmod:lightanddark_ruby"
+  }
+}

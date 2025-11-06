@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "lightanddarkmod:lightanddark_deepslate_whiteboard_ore"
+  },
+  "result": "lightanddarkmod:lightanddark_whiteboard_ingot"
+}

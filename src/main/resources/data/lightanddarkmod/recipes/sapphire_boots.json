@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "lightanddarkmod:lightanddark_sapphire"
+  },
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "result": {
+    "item": "lightanddarkmod:sapphire_boots"
+  },
+  "template": {
+    "item": "lightanddarkmod:lightanddark_sapphire"
+  }
+}

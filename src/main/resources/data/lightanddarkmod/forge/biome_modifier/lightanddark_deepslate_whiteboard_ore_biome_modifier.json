@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#minecraft:is_overworld",
+    "features":"lightanddarkmod:lightanddark_deepslate_whiteboard_ore",
+    "step": "underground_ores"
+}

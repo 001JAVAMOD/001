@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "1",
+  "ingredient": {
+    "item": "lightanddarkmod:lightanddark_deepslate_ruby_ore"
+  },
+  "result": "lightanddarkmod:lightanddark_ruby"
+}

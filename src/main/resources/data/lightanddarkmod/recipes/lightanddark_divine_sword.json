@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "lightanddarkmod:lightanddark_whiteboard_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_sword"
+  },
+  "result": {
+    "item": "lightanddarkmod:lightanddark_divine_sword"
+  },
+  "template": {
+    "item": "lightanddarkmod:lightanddark_whiteboard"
+  }
+}
