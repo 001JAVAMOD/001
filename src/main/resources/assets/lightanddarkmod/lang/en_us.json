@@ -28,8 +28,8 @@
     "block.lightanddarkmod.lightanddark_sapphire_ore": "Sapphire Ore",
     "block.lightanddarkmod.lightanddark_deepslate_sapphire_ore": "Deepslate Sapphire Ore",
 
-    "itemGroup.lightanddark_item_tab": "Examplemod",
-    "itemGroup.lightanddark_armor_tab": "Examplemod (Armor)",
-    "itemGroup.lightanddark_sword_tab": "Examplemod (Weapons)",
-    "itemGroup.lightanddark_block_tab": "Examplemod (Blocks)"
+    "itemGroup.lightanddark_item_tab": "Light and Dark (Item)",
+    "itemGroup.lightanddark_armor_tab": "Light and Dark (Armor)",
+    "itemGroup.lightanddark_sword_tab": "Light and Dark (Weapons)",
+    "itemGroup.lightanddark_block_tab": "Light and Dark (Blocks)"
 }

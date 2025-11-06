@@ -28,8 +28,8 @@
     "block.lightanddarkmod.lightanddark_sapphire_ore": "蓝宝石矿",
     "block.lightanddarkmod.lightanddark_deepslate_sapphire_ore": "深板岩蓝宝石矿",
 
-    "itemGroup.lightanddark_item_tab": "测试模组(物品)",
-    "itemGroup.lightanddark_armor_tab": "测试模组(盔甲)",
-    "itemGroup.lightanddark_sword_tab": "测试模组(武器)",
-    "itemGroup.lightanddark_block_tab": "测试模组(方块)"
+    "itemGroup.lightanddark_item_tab": "光与暗(物品)",
+    "itemGroup.lightanddark_armor_tab": "光与暗(盔甲)",
+    "itemGroup.lightanddark_sword_tab": "光与暗(武器)",
+    "itemGroup.lightanddark_block_tab": "光与暗(方块)"
 }
