@@ -1,6 +1,6 @@
 package com.mc1124.lightanddark.items;
 
-import com.mc1124.lightanddark.lightanddarkMod;
+import com.mc1124.lightanddark.LightAndDarkMod;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class Items {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, lightanddarkMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, LightAndDarkMod.MOD_ID);
 
     public static final RegistryObject<Item> EXAMPLE_WHITEBORD = 
             ITEMS.register("lightanddark_whiteboard", () -> new Item(new Item.Properties()));

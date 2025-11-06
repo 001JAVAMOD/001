@@ -12,12 +12,12 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-import com.mc1124.lightanddark.lightanddarkMod;
+import com.mc1124.lightanddark.LightAndDarkMod;
 import com.mc1124.lightanddark.items.Items;
 
 public class Sapphire_Ore {
     public static final DeferredRegister<Block> BLOCKS = 
-        DeferredRegister.create(ForgeRegistries.BLOCKS, lightanddarkMod.MOD_ID);
+        DeferredRegister.create(ForgeRegistries.BLOCKS, LightAndDarkMod.MOD_ID);
 
     public static final RegistryObject<Block> EXAMPLE_SAPPHIRE_ORE = 
         registerBlock("lightanddark_sapphire_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)

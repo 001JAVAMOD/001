@@ -1,6 +1,6 @@
 package com.mc1124.lightanddark.sword;
 
-import com.mc1124.lightanddark.lightanddarkMod;
+import com.mc1124.lightanddark.LightAndDarkMod;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class Ruby_Sword {
     public static final DeferredRegister<Item> RUBY_SWORD =
-            DeferredRegister.create(ForgeRegistries.ITEMS, lightanddarkMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, LightAndDarkMod.MOD_ID);
 
     public static final RegistryObject<Item> EXAMPLE_RUBY_SWORD = 
         RUBY_SWORD.register("lightanddark_ruby_sword", () -> new SwordItem(

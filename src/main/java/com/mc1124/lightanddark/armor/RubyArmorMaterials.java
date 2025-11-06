@@ -1,6 +1,6 @@
 package com.mc1124.lightanddark.armor;
 
-import com.mc1124.lightanddark.lightanddarkMod;
+import com.mc1124.lightanddark.LightAndDarkMod;
 import com.mc1124.lightanddark.items.Items;
 
 import net.minecraft.sounds.SoundEvent;
@@ -54,7 +54,7 @@ public class RubyArmorMaterials {
         // 名称
         @Override
         public String getName() {
-            return lightanddarkMod.MOD_ID + ":ruby";
+            return LightAndDarkMod.MOD_ID + ":ruby";
         }
 
         // 韧性 - 比钻石更高

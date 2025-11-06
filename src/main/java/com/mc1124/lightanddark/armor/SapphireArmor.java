@@ -1,6 +1,6 @@
 package com.mc1124.lightanddark.armor;
 
-import com.mc1124.lightanddark.lightanddarkMod;
+import com.mc1124.lightanddark.LightAndDarkMod;
 
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class SapphireArmor {
     public static final DeferredRegister<Item> ITEMS = 
-        DeferredRegister.create(ForgeRegistries.ITEMS, lightanddarkMod.MOD_ID);
+        DeferredRegister.create(ForgeRegistries.ITEMS, LightAndDarkMod.MOD_ID);
 
     // 蓝宝石头盔
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",

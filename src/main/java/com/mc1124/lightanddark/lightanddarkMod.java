@@ -34,8 +34,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(lightanddarkMod.MOD_ID)
-public class lightanddarkMod {
+@Mod(LightAndDarkMod.MOD_ID)
+public class LightAndDarkMod {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "lightanddarkmod";
     // Directly reference a slf4j logger
@@ -43,7 +43,7 @@ public class lightanddarkMod {
     // Create a Deferred Register to hold Blocks which will all be registered under
     // the "lightanddarkmod" namespace
 
-    public lightanddarkMod(FMLJavaModLoadingContext context) {
+    public LightAndDarkMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
         Items.register(modEventBus);

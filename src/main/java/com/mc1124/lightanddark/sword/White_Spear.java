@@ -1,6 +1,6 @@
 package com.mc1124.lightanddark.sword;
 
-import com.mc1124.lightanddark.lightanddarkMod;
+import com.mc1124.lightanddark.LightAndDarkMod;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class White_Spear {
     public static final DeferredRegister<Item> WHITE_SPEAR =
-            DeferredRegister.create(ForgeRegistries.ITEMS, lightanddarkMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, LightAndDarkMod.MOD_ID);
 
     public static final RegistryObject<Item> EXAMPLE_WHITE_SPEA = 
         WHITE_SPEAR.register("lightanddark_white_spear", () -> new SwordItem(
