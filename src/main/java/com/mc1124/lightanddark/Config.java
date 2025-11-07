@@ -36,7 +36,17 @@ public class Config
             .comment("A list of items to log on common setup.")
             .defineListAllowEmpty("items", List.of("minecraft:iron_ingot"), Config::validateItemName);
 
+    private static final ForgeConfigSpec.BooleanValue ENABLE_CUSTOM_ANIMATIONS = BUILDER
+        .comment("Whether to enable custom player animations")
+        .define("enableCustomAnimations", true);
+
+    private static final ForgeConfigSpec.DoubleValue ANIMATION_INTENSITY = BUILDER
+       .comment("Intensity of custom animations")
+        .defineInRange("animationIntensity", 1.0, 0.1, 2.0);
     static final ForgeConfigSpec SPEC = BUILDER.build();
+
+    public static boolean enableCustomAnimations;
+    public static double animationIntensity;
 
     public static boolean logDirtBlock;
     public static int magicNumber;
@@ -51,6 +61,8 @@ public class Config
     @SubscribeEvent
     static void onLoad(final ModConfigEvent event)
     {
+        enableCustomAnimations = ENABLE_CUSTOM_ANIMATIONS.get();
+        animationIntensity = ANIMATION_INTENSITY.get();
         logDirtBlock = LOG_DIRT_BLOCK.get();
         magicNumber = MAGIC_NUMBER.get();
         magicNumberIntroduction = MAGIC_NUMBER_INTRODUCTION.get();
