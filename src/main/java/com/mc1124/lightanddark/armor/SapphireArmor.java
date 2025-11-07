@@ -14,23 +14,27 @@ public class SapphireArmor {
 
     // 蓝宝石头盔
     public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
-        () -> new ArmorItem(SapphireArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, 
-                           new Item.Properties()));
+        () -> new CustomArmorItem(SapphireArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, 
+                           new Item.Properties(),
+                           "tooltip.lightanddark.helmet"));
 
     // 蓝宝石胸甲
     public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
-        () -> new ArmorItem(SapphireArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, 
-                           new Item.Properties()));
+        () -> new CustomArmorItem(SapphireArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, 
+                           new Item.Properties(),
+                           "tooltip.lightanddark.chestplate"));
 
     // 蓝宝石护腿
     public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
-        () -> new ArmorItem(SapphireArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, 
-                           new Item.Properties()));
+        () -> new CustomArmorItem(SapphireArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, 
+                           new Item.Properties(),
+                           "tooltip.lightanddark.leggings"));
 
     // 蓝宝石靴子
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
-        () -> new ArmorItem(SapphireArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, 
-                           new Item.Properties()));
+        () -> new CustomArmorItem(SapphireArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, 
+                           new Item.Properties(),
+                           "tooltip.lightanddark.boots"));
     
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

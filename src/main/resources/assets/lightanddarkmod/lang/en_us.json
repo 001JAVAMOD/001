@@ -21,6 +21,15 @@
     "tooltip.lightanddark_divine_sword.ability": "§aRight Click to use: Gain Effects",
     "tooltip.lightanddark_divine_sword.ability1": "§aCooldown: 20 seconds",
 
+    "tooltip.lightanddark.helmet.description": "",
+    "tooltip.lightanddark.chestplate.description": "",
+    "tooltip.lightanddark.leggings.description": "",
+    "tooltip.lightanddark.boots.description": "",
+    "tooltip.lightanddark.armor.set_bonus": "Set Bonus: Gain Effects (When wearing full set)",
+    "tooltip.lightanddark.armor.bonus_2": "AAA",
+    "tooltip.lightanddark.armor.bonus_3": "AAA",
+    "tooltip.lightanddark.armor.bonus_4": "AAA",
+
     "block.lightanddarkmod.lightanddark_whiteboard_ore": "Whiteboard Ore",
     "block.lightanddarkmod.lightanddark_deepslate_whiteboard_ore": "Deepslate Whiteboard Ore",
     "block.lightanddarkmod.lightanddark_ruby_ore": "Ruby Ore",

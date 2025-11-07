@@ -32,6 +32,7 @@ public class DivineSwordItem extends SwordItem {
             player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 3000, 4));
             player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3000, 4));
             player.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 3000, 19));
+            player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 3000, 5));
 
             // 设置冷却时间（可选）
             player.getCooldowns().addCooldown(this, 4000); // 20秒冷却
@@ -39,7 +40,7 @@ public class DivineSwordItem extends SwordItem {
 
         return InteractionResultHolder.success(stack);
     }
-     @Override
+    @Override
     public void appendHoverText(ItemStack stack, @Nullable Level world, List<Component> tooltip, TooltipFlag flag) {
         super.appendHoverText(stack, world, tooltip, flag);
 

@@ -14,23 +14,27 @@ public class RubyArmor {
 
     // 红宝石头盔
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
-        () -> new ArmorItem(RubyArmorMaterials.RUBY, ArmorItem.Type.HELMET, 
-                           new Item.Properties()));
+        () -> new CustomArmorItem(RubyArmorMaterials.RUBY, ArmorItem.Type.HELMET, 
+                           new Item.Properties(),
+                           "tooltip.lightanddark.helmet"));
 
     // 红宝石胸甲
     public static final RegistryObject<Item> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate",
-        () -> new ArmorItem(RubyArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, 
-                           new Item.Properties()));
+        () -> new CustomArmorItem(RubyArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, 
+                           new Item.Properties(),
+                           "tooltip.lightanddark.chestplate"));
 
     // 红宝石护腿
     public static final RegistryObject<Item> RUBY_LEGGINGS = ITEMS.register("ruby_leggings",
-        () -> new ArmorItem(RubyArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, 
-                           new Item.Properties()));
+        () -> new CustomArmorItem(RubyArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, 
+                           new Item.Properties(),
+                           "tooltip.lightanddark.leggings"));
 
     // 红宝石靴子
     public static final RegistryObject<Item> RUBY_BOOTS = ITEMS.register("ruby_boots",
-        () -> new ArmorItem(RubyArmorMaterials.RUBY, ArmorItem.Type.BOOTS, 
-                           new Item.Properties()));
+        () -> new CustomArmorItem(RubyArmorMaterials.RUBY, ArmorItem.Type.BOOTS, 
+                           new Item.Properties(),
+                           "tooltip.lightanddark.boots"));
     
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

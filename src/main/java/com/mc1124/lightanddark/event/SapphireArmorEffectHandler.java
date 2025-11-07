@@ -21,9 +21,9 @@ public class SapphireArmorEffectHandler {
             // 检查是否穿戴完整的红宝石盔甲
             if (isWearingFullRubyArmor(player)) {
                 // 添加效果 - 这里以力量、生命恢复为例
-                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 100, 2, false, false));
-                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 5, false, false));
-                player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 100, 5, false, false));
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 20, 2, false, false));
+                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 20, 5, false, false));
+                player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 20, 5, false, false));
             }
             
             // 检查是否穿戴部分红宝石盔甲（至少4件）

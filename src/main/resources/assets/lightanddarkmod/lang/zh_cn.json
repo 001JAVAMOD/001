@@ -21,10 +21,19 @@
     "tooltip.lightanddark_divine_sword.ability": "§a右键使用：获得效果",
     "tooltip.lightanddark_divine_sword.ability1": "§a冷却时间：20秒",
 
+    "tooltip.lightanddark.helmet.description": "",
+    "tooltip.lightanddark.chestplate.description": "",
+    "tooltip.lightanddark.leggings.description": "",
+    "tooltip.lightanddark.boots.description": "",
+    "tooltip.lightanddark.armor.set_bonus": "全套：获得效果(装满全套情况下)",
+    "tooltip.lightanddark.armor.bonus_2": "AAA",
+    "tooltip.lightanddark.armor.bonus_3": "AAA",
+    "tooltip.lightanddark.armor.bonus_4": "AAA",
+
     "block.lightanddarkmod.lightanddark_whiteboard_ore": "白矿",
     "block.lightanddarkmod.lightanddark_deepslate_whiteboard_ore": "深板岩白矿",
     "block.lightanddarkmod.lightanddark_ruby_ore": "红宝石矿",
-        "block.lightanddarkmod.lightanddark_deepslate_ruby_ore": "深板岩红宝石矿",
+    "block.lightanddarkmod.lightanddark_deepslate_ruby_ore": "深板岩红宝石矿",
     "block.lightanddarkmod.lightanddark_sapphire_ore": "蓝宝石矿",
     "block.lightanddarkmod.lightanddark_deepslate_sapphire_ore": "深板岩蓝宝石矿",
 
