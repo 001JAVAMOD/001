@@ -1,5 +1,6 @@
 package com.mc1124.lightanddark;
 
+import com.ibm.icu.impl.ICUNotifier;
 import com.mc1124.lightanddark.armor.CreativeModeArmorTabs;
 import com.mc1124.lightanddark.armor.RubyArmor;
 import com.mc1124.lightanddark.armor.SapphireArmor;
@@ -7,6 +8,7 @@ import com.mc1124.lightanddark.block.CreativeModeBlockTabs;
 import com.mc1124.lightanddark.block.Ruby_Ore;
 import com.mc1124.lightanddark.block.Sapphire_Ore;
 import com.mc1124.lightanddark.block.Whiteboard_Ore;
+import com.mc1124.lightanddark.capabilities.lightanddarkCapabilities;
 import com.mc1124.lightanddark.items.CreativeModeItemTabs;
 import com.mc1124.lightanddark.items.Items;
 import com.mc1124.lightanddark.sword.CreativeModeSwordTabs;
@@ -22,6 +24,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
+import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -32,6 +35,16 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import org.slf4j.Logger;
+import yesman.epicfight.data.loot.EpicFightLootTables;
+import yesman.epicfight.gameasset.Armatures;
+import yesman.epicfight.network.EpicFightNetworkManager;
+import yesman.epicfight.server.commands.arguments.EpicFightCommandArgumentTypes;
+import yesman.epicfight.world.capabilities.item.WeaponTypeReloadListener;
+import yesman.epicfight.world.capabilities.provider.EntityPatchProvider;
+import yesman.epicfight.world.capabilities.provider.ItemCapabilityProvider;
+import yesman.epicfight.world.effect.EpicFightMobEffects;
+import yesman.epicfight.world.effect.EpicFightPotions;
+import yesman.epicfight.world.gamerule.EpicFightGameRules;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(LightAndDarkMod.MOD_ID)
@@ -60,6 +73,8 @@ public class LightAndDarkMod {
         CreativeModeArmorTabs.CREATIVE_MODE_TABS.register(modEventBus);
         CreativeModeSwordTabs.CREATIVE_MODE_TABS.register(modEventBus);
         CreativeModeBlockTabs.CREATIVE_MODE_TABS.register(modEventBus);
+
+        modEventBus.addListener(lightanddarkCapabilities::register);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

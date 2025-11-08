@@ -20,6 +20,7 @@ public class Divine_Sword {
             -2.4F,      // 攻击速度
             new Item.Properties()
         ));
+
         public static void register(IEventBus eventBus) {
         DIVINE_SWORD.register(eventBus);
     }
