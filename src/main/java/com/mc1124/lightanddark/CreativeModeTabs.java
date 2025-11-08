@@ -4,7 +4,6 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.network.chat.Component;
 
-import com.mc1124.lightanddark.LightAndDarkMod;
 import com.mc1124.lightanddark.armor.*;
 import com.mc1124.lightanddark.items.*;
 import com.mc1124.lightanddark.sword.*;
