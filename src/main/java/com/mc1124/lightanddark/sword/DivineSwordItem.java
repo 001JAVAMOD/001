@@ -26,20 +26,23 @@ public class DivineSwordItem extends SwordItem {
     public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
         ItemStack stack = player.getItemInHand(hand);
 
-        if (!world.isClientSide) {
-            // 示例：右键时给予玩家速度与生命恢复效果
-            player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3000, 4));
-            player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 3000, 4));
-            player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3000, 4));
-            player.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 3000, 19));
-            player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 3000, 5));
+        if (player.isCrouching()) {
+            if (!world.isClientSide) {
+                // 示例：右键时给予玩家速度与生命恢复效果
+                player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 3000, 4));
+                player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 3000, 4));
+                player.addEffect(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3000, 4));
+                player.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 3000, 19));
+                player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 3000, 5));
 
             // 设置冷却时间（可选）
-            player.getCooldowns().addCooldown(this, 4000); // 20秒冷却
+                player.getCooldowns().addCooldown(this, 4000); // 20秒冷却
+            }
+            return InteractionResultHolder.success(stack);
         }
-
-        return InteractionResultHolder.success(stack);
+    return InteractionResultHolder.pass(stack);
     }
+    
     @Override
     public void appendHoverText(ItemStack stack, @Nullable Level world, List<Component> tooltip, TooltipFlag flag) {
         super.appendHoverText(stack, world, tooltip, flag);

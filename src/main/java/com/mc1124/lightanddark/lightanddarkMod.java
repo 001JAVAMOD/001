@@ -1,17 +1,13 @@
 package com.mc1124.lightanddark;
 
 import com.ibm.icu.impl.ICUNotifier;
-import com.mc1124.lightanddark.armor.CreativeModeArmorTabs;
 import com.mc1124.lightanddark.armor.RubyArmor;
 import com.mc1124.lightanddark.armor.SapphireArmor;
-import com.mc1124.lightanddark.block.CreativeModeBlockTabs;
 import com.mc1124.lightanddark.block.Ruby_Ore;
 import com.mc1124.lightanddark.block.Sapphire_Ore;
 import com.mc1124.lightanddark.block.Whiteboard_Ore;
 import com.mc1124.lightanddark.capabilities.lightanddarkCapabilities;
-import com.mc1124.lightanddark.items.CreativeModeItemTabs;
 import com.mc1124.lightanddark.items.Items;
-import com.mc1124.lightanddark.sword.CreativeModeSwordTabs;
 import com.mc1124.lightanddark.sword.Divine_Sword;
 import com.mc1124.lightanddark.sword.Ruby_Sword;
 import com.mc1124.lightanddark.sword.Sapphire_Sword;
@@ -69,10 +65,7 @@ public class LightAndDarkMod {
         Whiteboard_Ore.register(modEventBus);
         RubyArmor.register(modEventBus);
         SapphireArmor.register(modEventBus);
-        CreativeModeItemTabs.CREATIVE_MODE_TABS.register(modEventBus);
-        CreativeModeArmorTabs.CREATIVE_MODE_TABS.register(modEventBus);
-        CreativeModeSwordTabs.CREATIVE_MODE_TABS.register(modEventBus);
-        CreativeModeBlockTabs.CREATIVE_MODE_TABS.register(modEventBus);
+        CreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
 
         modEventBus.addListener(lightanddarkCapabilities::register);
 
