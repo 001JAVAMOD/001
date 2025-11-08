@@ -31,6 +31,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import org.slf4j.Logger;
+
 import yesman.epicfight.data.loot.EpicFightLootTables;
 import yesman.epicfight.gameasset.Armatures;
 import yesman.epicfight.network.EpicFightNetworkManager;
