@@ -1,14 +1,13 @@
 package com.mc1124.lightanddark;
 
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.network.chat.Component;
-
 import com.mc1124.lightanddark.armor.*;
 import com.mc1124.lightanddark.items.*;
 import com.mc1124.lightanddark.sword.*;
 import com.mc1124.lightanddark.block.*;
 
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
