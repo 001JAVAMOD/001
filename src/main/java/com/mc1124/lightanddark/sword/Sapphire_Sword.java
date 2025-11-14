@@ -14,7 +14,7 @@ public class Sapphire_Sword {
     public static final DeferredRegister<Item> SAPPHIRE_SWORD =
             DeferredRegister.create(ForgeRegistries.ITEMS, LightAndDarkMod.MOD_ID);
 
-    public static final RegistryObject<Item> EXAMPLE_SAPPHIRE_SWORD = 
+    public static final RegistryObject<Item> LIGHTANDDARK_SAPPHIRE_SWORD = 
         SAPPHIRE_SWORD.register("lightanddark_sapphire_sword", () -> new SwordItem(
             Tiers.DIAMOND, // 材质等级
             16,          // 攻击伤害

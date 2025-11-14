@@ -16,15 +16,16 @@ import com.mc1124.lightanddark.LightAndDarkMod;
 import com.mc1124.lightanddark.items.Items;
 
 public class Whiteboard_Ore {
-    public static final DeferredRegister<Block> BLOCKS = 
-        DeferredRegister.create(ForgeRegistries.BLOCKS, LightAndDarkMod.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
+            LightAndDarkMod.MOD_ID);
 
-    public static final RegistryObject<Block> EXAMPLE_WHITEBOARD_ORE = 
-        registerBlock("lightanddark_whiteboard_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
-            .requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> EXAMPLE_DEEPSLATE_WHITEBOARD_ORE = 
-        registerBlock("lightanddark_deepslate_whiteboard_ore", () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
-            .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LIGHTANDDARK_WHITEBOARD_ORE = registerBlock("lightanddark_whiteboard_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> LIGHTANDDARK_DEEPSLATE_WHITEBOARD_ORE = registerBlock(
+            "lightanddark_deepslate_whiteboard_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
+                    .requiresCorrectToolForDrops()));
 
     private static <T extends Block> void registerBlockItems(String name, RegistryObject<T> block) {
         Items.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));

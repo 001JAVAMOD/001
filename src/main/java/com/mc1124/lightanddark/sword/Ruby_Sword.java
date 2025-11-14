@@ -14,7 +14,7 @@ public class Ruby_Sword {
     public static final DeferredRegister<Item> RUBY_SWORD =
             DeferredRegister.create(ForgeRegistries.ITEMS, LightAndDarkMod.MOD_ID);
 
-    public static final RegistryObject<Item> EXAMPLE_RUBY_SWORD = 
+    public static final RegistryObject<Item> LIGHTANDDARK_RUBY_SWORD = 
         RUBY_SWORD.register("lightanddark_ruby_sword", () -> new SwordItem(
             Tiers.DIAMOND, // 材质等级
             16,          // 攻击伤害
