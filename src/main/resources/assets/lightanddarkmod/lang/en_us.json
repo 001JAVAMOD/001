@@ -9,6 +9,13 @@
     "item.lightanddarkmod.lightanddark_sapphire_sword": "Sapphire Sword",
     "item.lightanddarkmod.lightanddark_white_spear": "White Spear",
 
+    "tooltip.lightanddark_divine_sword.ability": "§ashift+Right Click to use: Gain Effects",
+    "tooltip.lightanddark_divine_sword.ability1": "§aCooldown: 20 seconds",
+
+    "entity.lightanddarkmod.dark_shadow": "Dark Shadow",
+
+    "item.lightanddarkmod.dark_shadow_spawn_egg": "Dark Shadow Spawn Egg",
+
     "item.lightanddarkmod.ruby_helmet": "Ruby Helmet",
     "item.lightanddarkmod.ruby_chestplate": "Ruby Chestplate",
     "item.lightanddarkmod.ruby_leggings": "Ruby Leggings",
@@ -17,9 +24,6 @@
     "item.lightanddarkmod.sapphire_chestplate": "Sapphire Chestplate",
     "item.lightanddarkmod.sapphire_leggings": "Sapphire Leggings",
     "item.lightanddarkmod.sapphire_boots": "Sapphire Boots",
-
-    "tooltip.lightanddark_divine_sword.ability": "§ashift+Right Click to use: Gain Effects",
-    "tooltip.lightanddark_divine_sword.ability1": "§aCooldown: 20 seconds",
 
     "tooltip.lightanddark.helmet.description": "",
     "tooltip.lightanddark.chestplate.description": "",

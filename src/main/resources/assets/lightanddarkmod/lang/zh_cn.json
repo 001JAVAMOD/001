@@ -9,6 +9,13 @@
     "item.lightanddarkmod.lightanddark_sapphire_sword": "蓝宝石剑",
     "item.lightanddarkmod.lightanddark_white_spear": "白枪",
 
+    "tooltip.lightanddark_divine_sword.ability": "§ashift+右键使用：获得效果",
+    "tooltip.lightanddark_divine_sword.ability1": "§a冷却时间：20秒",
+
+    "entity.lightanddarkmod.dark_shadow": "暗影",
+
+    "item.lightanddarkmod.dark_shadow_spawn_egg": "暗影生物蛋",
+
     "item.lightanddarkmod.ruby_helmet": "红宝石头盔",
     "item.lightanddarkmod.ruby_chestplate": "红宝石胸甲",
     "item.lightanddarkmod.ruby_leggings": "红宝石护腿",
@@ -17,9 +24,6 @@
     "item.lightanddarkmod.sapphire_chestplate": "蓝宝石胸甲",
     "item.lightanddarkmod.sapphire_leggings": "蓝宝石护腿",
     "item.lightanddarkmod.sapphire_boots": "蓝宝石靴子",
-
-    "tooltip.lightanddark_divine_sword.ability": "§ashift+右键使用：获得效果",
-    "tooltip.lightanddark_divine_sword.ability1": "§a冷却时间：20秒",
 
     "tooltip.lightanddark.helmet.description": "",
     "tooltip.lightanddark.chestplate.description": "",
