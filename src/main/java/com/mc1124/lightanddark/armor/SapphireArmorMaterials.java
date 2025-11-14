@@ -48,7 +48,7 @@ public class SapphireArmorMaterials {
         // 修复材料 - 使用红宝石
         @Override
         public Ingredient getRepairIngredient() {
-            return Ingredient.of(Items.EXAMPLE_SAPPHIRE.get());
+            return Ingredient.of(Items.LIGHTANDDARK_SAPPHIRE.get());
         }
 
         // 名称

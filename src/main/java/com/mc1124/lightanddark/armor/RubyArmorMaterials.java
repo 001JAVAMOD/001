@@ -15,10 +15,10 @@ public class RubyArmorMaterials {
         @Override
         public int getDurabilityForType(ArmorItem.Type type) {
             return switch (type) {
-                case HELMET -> 495;    // 头盔: 11 * 45
-                case CHESTPLATE -> 720; // 胸甲: 16 * 45  
-                case LEGGINGS -> 675;   // 护腿: 15 * 45
-                case BOOTS -> 405;      // 靴子: 13 * 45
+                case HELMET -> 495; // 头盔: 11 * 45
+                case CHESTPLATE -> 720; // 胸甲: 16 * 45
+                case LEGGINGS -> 675; // 护腿: 15 * 45
+                case BOOTS -> 405; // 靴子: 13 * 45
             };
         }
 
@@ -26,10 +26,10 @@ public class RubyArmorMaterials {
         @Override
         public int getDefenseForType(ArmorItem.Type type) {
             return switch (type) {
-                case HELMET -> 4;      // 比钻石头盔高1点
-                case CHESTPLATE -> 9;   // 比钻石胸甲高1点
-                case LEGGINGS -> 7;     // 比钻石护腿高1点
-                case BOOTS -> 4;        // 比钻石靴子高1点
+                case HELMET -> 4; // 比钻石头盔高1点
+                case CHESTPLATE -> 9; // 比钻石胸甲高1点
+                case LEGGINGS -> 7; // 比钻石护腿高1点
+                case BOOTS -> 4; // 比钻石靴子高1点
             };
         }
 
@@ -48,7 +48,7 @@ public class RubyArmorMaterials {
         // 修复材料 - 使用红宝石
         @Override
         public Ingredient getRepairIngredient() {
-            return Ingredient.of(Items.EXAMPLE_RUBY.get());
+            return Ingredient.of(Items.LIGHTANDDARK_RUBY.get());
         }
 
         // 名称
