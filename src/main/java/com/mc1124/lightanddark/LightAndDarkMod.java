@@ -5,6 +5,7 @@ import com.mc1124.lightanddark.armor.SapphireArmor;
 import com.mc1124.lightanddark.block.Ruby_Ore;
 import com.mc1124.lightanddark.block.Sapphire_Ore;
 import com.mc1124.lightanddark.block.Whiteboard_Ore;
+import com.mc1124.lightanddark.entity.ModEntities;
 import com.mc1124.lightanddark.items.Items;
 import com.mc1124.lightanddark.sword.Divine_Sword;
 import com.mc1124.lightanddark.sword.Ruby_Sword;
@@ -42,6 +43,8 @@ public class LightAndDarkMod {
     public LightAndDarkMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModEntities.ENTITIES.register(modEventBus);
+
         Items.register(modEventBus);
         Divine_Sword.register(modEventBus);
         Ruby_Sword.register(modEventBus);
@@ -52,6 +55,7 @@ public class LightAndDarkMod {
         Whiteboard_Ore.register(modEventBus);
         RubyArmor.register(modEventBus);
         SapphireArmor.register(modEventBus);
+
         CreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
 
         // Register the commonSetup method for modloading
