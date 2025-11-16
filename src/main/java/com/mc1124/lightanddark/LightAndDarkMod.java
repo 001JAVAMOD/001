@@ -7,7 +7,7 @@ import com.mc1124.lightanddark.block.Sapphire_Ore;
 import com.mc1124.lightanddark.block.Whiteboard_Ore;
 import com.mc1124.lightanddark.entity.ModEntities;
 import com.mc1124.lightanddark.items.Items;
-import com.mc1124.lightanddark.items.eggs;
+import com.mc1124.lightanddark.items.Eggs;
 import com.mc1124.lightanddark.network.NetworkHandler;
 import com.mc1124.lightanddark.sword.Divine_Sword;
 import com.mc1124.lightanddark.sword.Ruby_Sword;
@@ -54,7 +54,7 @@ public class LightAndDarkMod {
 
         ModEntities.ENTITIES.register(modEventBus);
 
-        eggs.register(modEventBus);
+        Eggs.register(modEventBus);
 
         Items.register(modEventBus);
         Divine_Sword.register(modEventBus);

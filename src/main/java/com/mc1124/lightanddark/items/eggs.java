@@ -9,7 +9,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class eggs {
+public class Eggs {
     public static final DeferredRegister<Item> SPAWN_EGGS = 
             DeferredRegister.create(ForgeRegistries.ITEMS, "lightanddarkmod");
 

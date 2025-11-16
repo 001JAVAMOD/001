@@ -43,7 +43,7 @@ public class CreativeModeTabs {
                         Poutput.accept(Ruby_Sword.LIGHTANDDARK_RUBY_SWORD.get());
                         Poutput.accept(Sapphire_Sword.LIGHTANDDARK_SAPPHIRE_SWORD.get());
                         Poutput.accept(White_Spear.LIGHTANDDARK_WHITE_SPEA.get());
-                        Poutput.accept(eggs.DARK_SHADOW_SPAWN_EGG.get());
+                        Poutput.accept(Eggs.DARK_SHADOW_SPAWN_EGG.get());
                     })
                     .build());
 }
