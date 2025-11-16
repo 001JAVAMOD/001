@@ -1,6 +1,7 @@
 package com.mc1124.lightanddark.network;
 
 import com.mc1124.lightanddark.LightAndDarkMod;
+
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.simple.SimpleChannel;

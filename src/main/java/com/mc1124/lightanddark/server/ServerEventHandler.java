@@ -5,6 +5,7 @@ import com.mc1124.lightanddark.network.NetworkHandler;
 import com.mc1124.lightanddark.network.TeamSyncPacket;
 import com.mc1124.lightanddark.system.TeamDataManager;
 import com.mc1124.lightanddark.system.TeamManager;
+
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;

@@ -1,9 +1,11 @@
 package com.mc1124.lightanddark.commands;
 
 import com.mc1124.lightanddark.system.TeamManager;
+
 import com.mojang.brigadier.Command;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.StringArgumentType;
+
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;

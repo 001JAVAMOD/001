@@ -8,15 +8,10 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.Minecraft;
 
 import java.util.List;
 
 public class TeamInfoScreen extends Screen {
-    private static final ResourceLocation BACKGROUND = ResourceLocation.fromNamespaceAndPath(
-            LightAndDarkMod.MOD_ID, "textures/gui/team_info.png");
-    
     private int imageWidth = 350;
     private int imageHeight = 220;
     private String playerTeam;

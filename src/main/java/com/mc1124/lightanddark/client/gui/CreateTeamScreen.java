@@ -8,12 +8,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 
 public class CreateTeamScreen extends Screen {
-    private static final ResourceLocation BACKGROUND = ResourceLocation.fromNamespaceAndPath(
-            LightAndDarkMod.MOD_ID, "textures/gui/create_team.png");
-    
     private int imageWidth = 280;
     private int imageHeight = 200;
     private EditBox teamIdField;

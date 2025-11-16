@@ -1,7 +1,7 @@
 package com.mc1124.lightanddark.client.gui;
 
-import com.mc1124.lightanddark.LightAndDarkMod;
 import com.mc1124.lightanddark.system.TeamManager;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.resources.DefaultPlayerSkin;

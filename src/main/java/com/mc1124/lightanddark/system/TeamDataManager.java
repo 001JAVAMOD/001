@@ -5,9 +5,7 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.level.storage.LevelResource;
 
 import java.io.*;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 public class TeamDataManager {
     private static final String TEAM_DATA_FILE = "lightanddark_teams.dat";
@@ -77,10 +75,6 @@ public class TeamDataManager {
                 CompoundTag playerTeamsTag = rootTag.getCompound("playerTeams");
                 for (String playerUUIDStr : playerTeamsTag.getAllKeys()) {
                     try {
-                        UUID playerUUID = UUID.fromString(playerUUIDStr);
-                        String teamId = playerTeamsTag.getString(playerUUIDStr);
-                        // 这里需要一个方法来设置玩家队伍
-                        // TeamManager.setPlayerTeamByUUID(playerUUID, teamId);
                     } catch (IllegalArgumentException e) {
                         System.err.println("无效的玩家UUID: " + playerUUIDStr);
                     }

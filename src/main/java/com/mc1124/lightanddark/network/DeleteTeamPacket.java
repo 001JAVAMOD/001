@@ -1,6 +1,7 @@
 package com.mc1124.lightanddark.network;
 
 import com.mc1124.lightanddark.system.TeamManager;
+
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;

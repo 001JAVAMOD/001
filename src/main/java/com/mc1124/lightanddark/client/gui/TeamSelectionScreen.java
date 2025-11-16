@@ -7,14 +7,10 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 
 import java.util.Map;
 
 public class TeamSelectionScreen extends Screen {
-    private static final ResourceLocation BACKGROUND = ResourceLocation.fromNamespaceAndPath(
-            LightAndDarkMod.MOD_ID, "textures/gui/team_selection.png");
-    
     private int imageWidth = 300;
     private int imageHeight = 180;
     private boolean hasTeam = false;
