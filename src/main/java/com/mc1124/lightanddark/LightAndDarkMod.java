@@ -8,10 +8,13 @@ import com.mc1124.lightanddark.block.Whiteboard_Ore;
 import com.mc1124.lightanddark.entity.ModEntities;
 import com.mc1124.lightanddark.items.Items;
 import com.mc1124.lightanddark.items.eggs;
+import com.mc1124.lightanddark.network.NetworkHandler;
 import com.mc1124.lightanddark.sword.Divine_Sword;
 import com.mc1124.lightanddark.sword.Ruby_Sword;
 import com.mc1124.lightanddark.sword.Sapphire_Sword;
 import com.mc1124.lightanddark.sword.White_Spear;
+import com.mc1124.lightanddark.commands.TeamCommands;
+
 import com.mojang.logging.LogUtils;
 
 import net.minecraft.client.Minecraft;
@@ -28,6 +31,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.event.RegisterCommandsEvent;
 
 import org.slf4j.Logger;
 
@@ -40,6 +44,10 @@ public class LightAndDarkMod {
     private static final Logger LOGGER = LogUtils.getLogger();
     // Create a Deferred Register to hold Blocks which will all be registered under
     // the "lightanddarkmod" namespace
+
+    public LightAndDarkMod() {
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::commonSetup);
+    }
 
     public LightAndDarkMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
@@ -75,7 +83,15 @@ public class LightAndDarkMod {
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
+    @SubscribeEvent
+    public void onRegisterCommands(RegisterCommandsEvent event) {
+        TeamCommands.register(event.getDispatcher());
+    }
+    
     private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            NetworkHandler.register();
+        });
         // Some common setup code
         LOGGER.info("HELLO FROM COMMON SETUP");
 

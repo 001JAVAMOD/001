@@ -43,6 +43,11 @@ public class Config
     private static final ForgeConfigSpec.DoubleValue ANIMATION_INTENSITY = BUILDER
        .comment("Intensity of custom animations")
         .defineInRange("animationIntensity", 1.0, 0.1, 2.0);
+    
+    private static final ForgeConfigSpec.ConfigValue<String> OPEN_GUI_KEY = BUILDER
+            .comment("Key binding for opening the Light and Dark GUI")
+            .define("openGuiKey", "key.keyboard.r");
+
     static final ForgeConfigSpec SPEC = BUILDER.build();
 
     public static boolean enableCustomAnimations;
@@ -52,6 +57,7 @@ public class Config
     public static int magicNumber;
     public static String magicNumberIntroduction;
     public static Set<Item> items;
+    public static String openGuiKey;
 
     private static boolean validateItemName(final Object obj)
     {
@@ -66,6 +72,7 @@ public class Config
         logDirtBlock = LOG_DIRT_BLOCK.get();
         magicNumber = MAGIC_NUMBER.get();
         magicNumberIntroduction = MAGIC_NUMBER_INTRODUCTION.get();
+        openGuiKey = OPEN_GUI_KEY.get();
 
         // convert the list of strings into a set of items
         items = ITEM_STRINGS.get().stream()
