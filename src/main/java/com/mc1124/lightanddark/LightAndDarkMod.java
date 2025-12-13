@@ -8,12 +8,10 @@ import com.mc1124.lightanddark.block.Whiteboard_Ore;
 import com.mc1124.lightanddark.entity.ModEntities;
 import com.mc1124.lightanddark.items.Items;
 import com.mc1124.lightanddark.items.Eggs;
-import com.mc1124.lightanddark.network.NetworkHandler;
 import com.mc1124.lightanddark.sword.Divine_Sword;
 import com.mc1124.lightanddark.sword.Ruby_Sword;
 import com.mc1124.lightanddark.sword.Sapphire_Sword;
 import com.mc1124.lightanddark.sword.White_Spear;
-import com.mc1124.lightanddark.commands.TeamCommands;
 
 import com.mojang.logging.LogUtils;
 
@@ -45,10 +43,6 @@ public class LightAndDarkMod {
     // Create a Deferred Register to hold Blocks which will all be registered under
     // the "lightanddarkmod" namespace
 
-    public LightAndDarkMod() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::commonSetup);
-    }
-
     public LightAndDarkMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
@@ -70,48 +64,19 @@ public class LightAndDarkMod {
         CreativeModeTabs.CREATIVE_MODE_TABS.register(modEventBus);
 
         // Register the commonSetup method for modloading
-        modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
         // Register the item to a creative tab
-        modEventBus.addListener(this::addCreative);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the
         // config file for us
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    @SubscribeEvent
-    public void onRegisterCommands(RegisterCommandsEvent event) {
-        TeamCommands.register(event.getDispatcher());
-    }
-    
-    private void commonSetup(final FMLCommonSetupEvent event) {
-        event.enqueueWork(() -> {
-            NetworkHandler.register();
-        });
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-
-        if (Config.logDirtBlock)
-            LOGGER.info("DIRT BLOCK >> {}", ForgeRegistries.BLOCKS.getKey(Blocks.DIRT));
-
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
-
-        Config.items.forEach((item) -> LOGGER.info("ITEM >> {}", item.toString()));
-    }
-
     // Add the lightanddark block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-    }
-
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-        // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods
